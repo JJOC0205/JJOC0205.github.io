@@ -1,7 +1,10 @@
 #picOfMe{
     width:100px;
-    height:50px;
+    height:100px;
 }
 h1{
+    color:blue;
+}
+h2{
     color:blue;
 }
