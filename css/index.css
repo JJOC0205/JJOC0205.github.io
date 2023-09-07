@@ -2,9 +2,30 @@
     width:100px;
     height:100px;
 }
+#aboutMe{
+    top:25px;
+    right:25px;
+    opacity: 0.5;
+    text-decoration: none;
+    position: absolute;
+    color:blue;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+#aboutMe:hover{
+    opacity: 1;
+}
 h1{
     color:blue;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 35px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
 }
 h2{
     color:blue;
+    text-align: center;
+    
 }
