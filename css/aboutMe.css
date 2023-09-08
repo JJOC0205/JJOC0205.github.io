@@ -1,11 +1,53 @@
-p {
-    font-family: monospace;
-    font-size: 3em;
-    animation: color-change 1s infinite;
+h1{
+  color:blue;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 35px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+body{
+  background-color: #1512333a;
+}
+#links{
+  top:25px;
+  right:25px;
+  opacity: 0.5;
+  text-decoration: none;
+  position: absolute;
+  color:blue;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+#links:hover{
+  opacity: 1;
+}
+@keyframes colorChangeMets{
+  50%{
+    color:orange;
   }
-  
-  @keyframes color-change {
-    0% { color: red; }
-    50% { color: blue; }
-    100% { color: red; }
+}
+#Mets{
+  color:blue;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  animation-name: colorChangeMets;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes colorChangeJets{
+  50%{
+    color:green;
   }
+}
+#Jets{
+  color:white;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  animation-name: colorChangeJets;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
