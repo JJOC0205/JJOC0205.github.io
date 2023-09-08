@@ -2,7 +2,7 @@
     width:100px;
     height:100px;
 }
-#aboutMe{
+#links{
     top:25px;
     right:25px;
     opacity: 0.5;
@@ -13,7 +13,7 @@
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
 }
-#aboutMe:hover{
+#links:hover{
     opacity: 1;
 }
 h1{
@@ -27,5 +27,8 @@ h1{
 h2{
     color:blue;
     text-align: center;
-    
+
+}
+body{
+    background-color: #1822243a;
 }
