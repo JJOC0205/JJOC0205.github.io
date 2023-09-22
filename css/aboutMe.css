@@ -1,3 +1,7 @@
+* {
+  padding:0;
+  margin:0;
+}
 h1{
   color:blue;
   text-align: center;
@@ -5,6 +9,9 @@ h1{
   font-size: 35px;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
+}
+h2{
+  margin-left: 25px;
 }
 body{
   background-color: #ade0e7f7;
@@ -31,6 +38,7 @@ body{
 #Mets{
   color:blue;
   font-size: 25px;
+  margin-left: 50px;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   animation-name: colorChangeMets;
@@ -45,6 +53,7 @@ body{
 #Jets{
   color:rgb(236, 255, 239);
   font-size: 25px;
+  margin-left: 50px;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   animation-name: colorChangeJets;
