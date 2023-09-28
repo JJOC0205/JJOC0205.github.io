@@ -11,6 +11,7 @@ class Header extends HTMLElement{
                     <a href="index.html" class="links">Home</a>
                     <a href="/aboutMe.html" class="links">About me page</a>
                     <a href="/contact.html" class="links">Contact page</a>
+                    <a href="https://youtu.be/dQw4w9WgXcQ?si=QesejtEONhD1V90F" class="links">Suprise Me!</a>
                     <a href="https://mattm401.github.io/" class="links">Course Site</a>
                     <a href="https://jthensley03.github.io/" class="links">Next Student</a>
                 </div>
