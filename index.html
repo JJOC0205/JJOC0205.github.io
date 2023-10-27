@@ -1,16 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head title="474 Personal Site">
-    <title>Jon O'Connell</title>
-    <link rel="stylesheet" href="css/basics.css">
-    <link rel="stylesheet" href="css/index.css">
-    <script src="/scripts/header.js" defer></script>
-  </head>
+
+<head title="474 Personal Site">
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-G96HC5GJY2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-G96HC5GJY2');
+	</script>
+	<title>Jon O'Connell</title>
+	<link rel="stylesheet" href="css/basics.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="/scripts/header.js" defer></script>
+	<script src="/scripts/footer.js" defer></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
 <body>
-  <header-component></header-component>
-  <h1>Jon O'Connell</h1>
-  <h2>Jonathon O'Connell</h2>
-  
-  <img src="/images/IMG_2423.jpeg" alt="Picture of me" id="picOfMe">
+	<header-component></header-component>
+	<div class="row">
+		<div class="col">
+			<h1>Jon O'Connell</h1>
+			<img src="/images/IMG_2423.jpeg" alt="Picture of me" id="picOfMe">
+		</div>
+		<div class="col" id="info">
+			<h2>Education</h2>
+			<h3>Bachelor of Science in Computer Science from the University of Delaware</h3>
+			<h4>Concentration in Systems and Networks</h4>
+			<h4>Relevant Coursework</h5>
+				<ul>
+					<li>Algorithms</li>
+					<li>Data Structures</li>
+					<li>Computer Architecture</li>
+					<li>Operating Systems</li>
+					<li>Computer Networks</li>
+					<li>Compiler Design</li>
+					<li>Automota Theory</li>
+					<li>Software Engineering</li>
+					<li>Database Systems</li>
+					<li>Web Application Security</li>
+					<li>Advanced Web Technologies</li>
+				</ul>
+				<h2>Resume</h2>
+				<embed src="/images/resume2.pdf" type="application/pdf" width="100%" height="600px" />
+		</div>
+	</div>
+	<div class="spacer"></div>
+	<footer-component></footer-component>
 </body>
+
 </html>

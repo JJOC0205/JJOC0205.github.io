@@ -5,7 +5,7 @@ class Header extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
         <header>
-            <nav>
+            <div class="navbar">
                 <div class="row">
                     <a href="https://jfmarks.github.io/" class="links">Previous Student</a>
                     <a href="index.html" class="links">Home</a>
@@ -15,7 +15,7 @@ class Header extends HTMLElement{
                     <a href="https://mattm401.github.io/" class="links">Course Site</a>
                     <a href="https://jthensley03.github.io/" class="links">Next Student</a>
                 </div>
-            </nav>
+            </div>
         </header>
     `;
     }

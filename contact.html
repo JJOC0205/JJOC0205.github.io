@@ -1,44 +1,57 @@
 <!Doctype html>
 <html lang="en">
-  <head title="474 About Me">
-    <title >Jon O'Connell</title>
-    <link rel="stylesheet" href="css/basics.css">
-    <link rel="stylesheet" href="css/contact.css">
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script src="/scripts/header.js" defer></script>
-    <script src="/scripts/form.js" defer></script>
-  </head>
-  <body>
-    <header-component></header-component>
-    <h1>
-      Contact Me
-    </h1>
-    <div class="container-form">
-        <form id="contact-form">
-            <div class="form-group">
-                <label for="userLastName">Last Name:</label>
-                <input type="text" class="form-control" id="userLastName" name="userLastName">
-            </div>
-            <div class="form-group">
-                <label for="userFirstName">First Name:</label>
-                <input type="text" class="form-control" id="userFirstName" name="userFirstName">
-            </div>
-            <div class="form-group">
-                <label for="userEmail">Email Address:</label>
-                <input type="email" class="form-control" id="userEmail" name="userEmail">
-            </div>
-            <div class="form-group">
-                <label for="userPhone">Phone Number:</label>
-                <input type="tel" class="form-control" id="userPhone" name="userPhone">
-                <small class="form-text text-muted">Format: 123-456-7890</small>
-            </div>
-            <div class="form-group">
-                <label for="userMessage">Message:</label>
-                <textarea class="form-control" id="userMessage" name="userMessage" rows="4"></textarea>
-            </div>
-            <button type="submit" id="submit-email">Submit</button>
-        </form>
-    </div>
-    <div id="error"></div>
-  </body>
+
+<head title="474 About Me">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G96HC5GJY2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-G96HC5GJY2');
+  </script>
+  <title>Jon O'Connell</title>
+  <link rel="stylesheet" href="css/basics.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="/scripts/header.js" defer></script>
+  <script src="/scripts/form.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header-component></header-component>
+  <h1>
+    Contact Me
+  </h1>
+  <div class="container-form">
+    <form id="contact-form">
+      <div class="form-group">
+        <label for="userLastName">Last Name:</label>
+        <input type="text" class="form-control" id="userLastName" name="userLastName">
+      </div>
+      <div class="form-group">
+        <label for="userFirstName">First Name:</label>
+        <input type="text" class="form-control" id="userFirstName" name="userFirstName">
+      </div>
+      <div class="form-group">
+        <label for="userEmail">Email Address:</label>
+        <input type="email" class="form-control" id="userEmail" name="userEmail">
+      </div>
+      <div class="form-group">
+        <label for="userPhone">Phone Number:</label>
+        <input type="tel" class="form-control" id="userPhone" name="userPhone">
+        <small class="form-text text-muted">Format: 123-456-7890</small>
+      </div>
+      <div class="form-group">
+        <label for="userMessage">Message:</label>
+        <textarea class="form-control" id="userMessage" name="userMessage" rows="4"></textarea>
+      </div>
+      <button type="submit" id="submit-email">Submit</button>
+    </form>
+  </div>
+  <div id="error"></div>
+</body>
+
 </html>
