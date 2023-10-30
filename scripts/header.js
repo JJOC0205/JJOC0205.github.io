@@ -1,12 +1,13 @@
-class Header extends HTMLElement{
-    constructor(){
+class Header extends HTMLElement {
+    constructor() {
         super();
     }
-    connectedCallback(){
+    connectedCallback() {
         this.innerHTML = `
         <header>
             <div class="navbar">
-                <div class="row">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
                     <a href="https://jfmarks.github.io/" class="links">Previous Student</a>
                     <a href="index.html" class="links">Home</a>
                     <a href="/aboutMe.html" class="links">About me page</a>

@@ -1,64 +1,88 @@
 * {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 }
-.spacer{
-    height: 25vw;
+
+.spacer {
+    height: 10vw;
 
 }
-h1{
+
+h1 {
     text-align: left;
     margin-top: 25px;
     margin-left: 15px;
     color: #5649e9;
     font-size: 65px;
 }
-h2{
-    text-align: left;
-    color: #5649e9;
-    font-size: 30px;
-    margin-left: 65px;
-}
-#picOfMe{
+#picOfMe {
     width: 300px;
     height: 300px;
     border-radius: 50%;
     margin-left: 15px;
     margin-top: 15px;
 }
-.row{
+
+.row {
     display: flex;
 }
-.col{
-    flex:50%;
+
+.col {
+    flex: 50%;
     padding: 10px;
 }
-.col h2{
+
+.col h2 {
     text-align: center;
     color: #5649e9;
 }
-.col h3{
-    text-align: center;
-    color: #5649e9;
-    padding-top: 10px;
-}
-.col h4{
+
+.col h3 {
     text-align: center;
     color: #5649e9;
     padding-top: 10px;
 }
-.col{
+
+.col h4 {
+    text-align: center;
+    color: #5649e9;
+    padding-top: 10px;
+}
+
+.col {
     list-style-type: circle;
 }
-.col ul{
+
+.col ul {
     text-align: center;
     color: #5649e9;
     padding-top: 10px;
     font-size: large;
     list-style-position: inside;
 }
+
 @media screen and (max-width: 850px) {
     .col {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
+
+#work {
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 85px;
+    color: #5649e9;
+    font-size: 45px;
+}
+.projects a {
+    text-align: left;
+    color: #5649e9;
+    padding-top: 10px;
+}
+#proj{
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #5649e9;
+    font-size: 20px;
+}
