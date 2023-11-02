@@ -61,7 +61,7 @@ h1 {
     list-style-position: inside;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 600px) {
     .col {
         width: 100%;
     }
